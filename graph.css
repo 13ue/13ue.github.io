@@ -40,6 +40,9 @@ h3 {
 .tab-pane {
   width: 100%;
   overflow-y: visible;
+  overflow-x: visible;
+  overflow-y: scroll;
+
   height:75vh;
   overflow-y: scroll;
 
@@ -58,6 +61,7 @@ h3 {
   /* font-size: 4em; */
 }
 #cy {
+  z-index: 1000;
   width: 66.66%;
   min-height: 100%;
   position: fixed;
