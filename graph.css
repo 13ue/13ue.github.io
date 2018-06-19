@@ -1,0 +1,74 @@
+html, body, .container-fluid, .row, .col-8
+{
+    height: 100%;
+}
+h3 {
+  font-size: 1.5em;
+}
+.container-fluid {
+  height: 100%;
+}
+
+.patents-plot {
+ width: 80vw;
+}
+* {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+
+}
+
+.table-link {
+  color: blue;
+}
+.table-link:hover {
+  text-decoration: underline;
+}
+
+.side-info {
+  width: 100%
+}
+.row{
+  width: 100%
+}
+.tab-content {
+  width: 100%;
+}
+#patents, #organisations, #patents-plot{
+  width: 100%;
+}
+.tab-pane {
+  width: 100%;
+  overflow-y: visible;
+  height:75vh;
+  overflow-y: scroll;
+
+  margin-bottom: 20%;
+}
+.footer {
+  position: fixed;
+  top: 80vh;
+  background: white;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: left;
+  /* overflow-y: visible; */
+}
+#ft-h3-1 h1{
+  /* font-size: 4em; */
+}
+#cy {
+  width: 66.66%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0px;
+}
+.green {
+  background-color: 'green';
+  height: 200px;
+}
+.red {
+  background-color: 'red';
+  height: 200px;
+}

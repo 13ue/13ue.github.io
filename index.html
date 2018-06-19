@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>CPC Viewer</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+
+  <link href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.css" rel="stylesheet">
+  <link href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.16.min.css" rel="stylesheet">
+<link href="http://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.16.min.css" rel="stylesheet">
+
+
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="graph.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+ 
+  
+  </script>
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+  <div class="container-fluid">
+    <!-- <div class="row">
+      <div class="col-8">
+        <div class="green">
+
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="red">
+
+        </div>
+
+      </div>
+    </div> -->
+    <div class="row">
+
+      <div class="col-8">
+        <div id="cy" class="sticky">
+
+        </div>
+      </div>
+
+      <div class="col-4 side-info">
+
+
+        <ul class="nav md-pills nav-justified pills-secondary">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#overview" role="tab">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#patents" role="tab">Patents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#organisations" role="tab">Organisations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#locations" role="tab">Locations</a>
+          </li>
+        </ul>
+
+        <!-- Tab panels -->
+        <div class="tab-content">
+
+          <!--Panel 1-->
+          <div class="tab-pane fade in show active" id="overview" role="tabpanel">
+            <!-- <br>
+            <h2>Panel 1</h2> -->
+            <br>
+            <h3 id="overview-p-1">
+              Select nodes to get info...
+            </h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+          </div>
+          <!--/.Panel 1-->
+
+          <!--Panel 2-->
+          <div class="tab-pane fade" id="patents" role="tabpanel">
+            <br>
+            <div id="patents-plot">
+
+            </div>
+            <br>
+            <div id="patents-table">
+              <h3>
+                Select nodes to get info...
+              </h3>
+            </div>
+            
+
+          </div>
+          <!--/.Panel 2-->
+
+          <!--Panel 3-->
+          <div class="tab-pane fade" id="organisations" role="tabpanel">
+            <br>
+            <h3>
+              Select nodes to get info...
+            </h3>
+
+          </div>
+          <!--/.Panel 3-->
+
+          <!--Panel 4-->
+          <div class="tab-pane fade" id="locations" role="tabpanel">
+            <br>
+            <h2>Locations</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+              molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+              odit minima.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis
+              molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate
+              odit minima.</p>
+
+          </div>
+          <!--/.Panel 4-->
+
+          <footer class="footer">
+            <h3 id="ft-h3-1"></h3>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="test.json"></script>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.12/cytoscape.js"></script>
+
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.16.min.js"></script>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.16.min.js"></script>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-tables-0.12.16.min.js"></script>
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-api-0.12.16.min.js"></script>
+    <script type="text/javascript" src="graph.js"></script>
+
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+
+</body>
+
+</html>
